@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB88086B8197456A3C4DC7B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB88FDFC32E9220EA6171E1 /* Info.plist */; };
+		BCB8810DF68F8A5E5F9DC50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB8842E82345CAC0B60BDF8 /* Assets.xcassets */; };
+		BCB8823B6A6CE8CC88A6CFB4 /* MyAudioRecorderCordovaPluginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB88EF21AC741CB0945AF90 /* MyAudioRecorderCordovaPluginUITests.m */; };
+		BCB882CFE67FE74402FB43DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB88B3C97BDA1D95A8F89B3 /* Main.storyboard */; };
+		BCB883514322D80A0F58F501 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB88879BBBC59C8D87A5BA2 /* ViewController.m */; };
+		BCB884B1C8811BE52F5BFC1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB88B4F813E0C5B0DBC7620 /* AppDelegate.m */; };
+		BCB886599D536AE39BFEE3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB88F2B277239E6243A1F78 /* LaunchScreen.storyboard */; };
+		BCB8893373AC5022398C1B15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB882CA061917BC0822F601 /* Info.plist */; };
+		BCB88D1F5B00682FD2563C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB8836978DC2DB7968FDA15 /* main.m */; };
+		BCB88F1D6AC747E6BF1401AA /* MyAudioRecorderCordovaPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB8873FAB5161D6BDCE0372 /* MyAudioRecorderCordovaPluginTests.m */; };
+		BCB88F393A99A0E7F7B55FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB8806D07BADA89F12404D5 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCB886C539C6C6B9C32278DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB88779ADFEE6154ADCAE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB880038C549C2CD537EB53;
+			remoteInfo = MyAudioRecorderCordovaPlugin;
+		};
+		BCB88DC5B7DD8CDBD9AFFCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCB88779ADFEE6154ADCAE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB880038C549C2CD537EB53;
+			remoteInfo = MyAudioRecorderCordovaPlugin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCB8806D07BADA89F12404D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		BCB8807F23F68426D1D28FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCB882CA061917BC0822F601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		BCB8836978DC2DB7968FDA15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB8842E82345CAC0B60BDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB885EE6D41600E94DA9703 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCB886B884699C6BCC894BAC /* MyAudioRecorderCordovaPlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAudioRecorderCordovaPlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB8873FAB5161D6BDCE0372 /* MyAudioRecorderCordovaPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioRecorderCordovaPluginTests.m; sourceTree = "<group>"; };
+		BCB887CEC8FD127952EA0B6D /* MyAudioRecorderCordovaPluginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudioRecorderCordovaPluginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB88879BBBC59C8D87A5BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCB8887A27D82FD8B52007F6 /* MyAudioRecorderCordovaPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudioRecorderCordovaPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB88B4F813E0C5B0DBC7620 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCB88C115D0FD9A49D49DBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCB88E46AB2CBBB7D9A34A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB88EF21AC741CB0945AF90 /* MyAudioRecorderCordovaPluginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioRecorderCordovaPluginUITests.m; sourceTree = "<group>"; };
+		BCB88FDFC32E9220EA6171E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB8839DCC3BD8758DF38669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88548D8A056BF20ADB2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88FF1316C464DE5000AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB8806D5E30C82DF42DFAC0 /* MyAudioRecorderCordovaPluginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB8806D07BADA89F12404D5 /* Info.plist */,
+				BCB88EF21AC741CB0945AF90 /* MyAudioRecorderCordovaPluginUITests.m */,
+			);
+			path = MyAudioRecorderCordovaPluginUITests;
+			sourceTree = "<group>";
+		};
+		BCB8809CE1B7EA93A07CA31F /* MyAudioRecorderCordovaPluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCB88FDFC32E9220EA6171E1 /* Info.plist */,
+				BCB8873FAB5161D6BDCE0372 /* MyAudioRecorderCordovaPluginTests.m */,
+			);
+			path = MyAudioRecorderCordovaPluginTests;
+			sourceTree = "<group>";
+		};
+		BCB885AE6995E1A662FF5418 /* MyAudioRecorderCordovaPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				BCB882CA061917BC0822F601 /* Info.plist */,
+				BCB8842E82345CAC0B60BDF8 /* Assets.xcassets */,
+				BCB88F2B277239E6243A1F78 /* LaunchScreen.storyboard */,
+				BCB88AAA57C1E8333028F75D /* Supporting Files */,
+				BCB88C115D0FD9A49D49DBCC /* AppDelegate.h */,
+				BCB88B4F813E0C5B0DBC7620 /* AppDelegate.m */,
+				BCB88B3C97BDA1D95A8F89B3 /* Main.storyboard */,
+				BCB885EE6D41600E94DA9703 /* ViewController.h */,
+				BCB88879BBBC59C8D87A5BA2 /* ViewController.m */,
+			);
+			path = MyAudioRecorderCordovaPlugin;
+			sourceTree = "<group>";
+		};
+		BCB889F5C8731760F87B82D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB886B884699C6BCC894BAC /* MyAudioRecorderCordovaPlugin.app */,
+				BCB8887A27D82FD8B52007F6 /* MyAudioRecorderCordovaPluginTests.xctest */,
+				BCB887CEC8FD127952EA0B6D /* MyAudioRecorderCordovaPluginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB88AAA57C1E8333028F75D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB8836978DC2DB7968FDA15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB88B1817EBBF326D4AB86E = {
+			isa = PBXGroup;
+			children = (
+				BCB889F5C8731760F87B82D6 /* Products */,
+				BCB885AE6995E1A662FF5418 /* MyAudioRecorderCordovaPlugin */,
+				BCB8809CE1B7EA93A07CA31F /* MyAudioRecorderCordovaPluginTests */,
+				BCB8806D5E30C82DF42DFAC0 /* MyAudioRecorderCordovaPluginUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB880038C549C2CD537EB53 /* MyAudioRecorderCordovaPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB885F61CE8114BA3C3CCE2 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPlugin" */;
+			buildPhases = (
+				BCB8883A4EF0C70A258AA40F /* Sources */,
+				BCB8839DCC3BD8758DF38669 /* Frameworks */,
+				BCB88B343CDA92C77E0960F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAudioRecorderCordovaPlugin;
+			productName = MyAudioRecorderCordovaPlugin;
+			productReference = BCB886B884699C6BCC894BAC /* MyAudioRecorderCordovaPlugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCB8867FE11C842EBE6FE1A3 /* MyAudioRecorderCordovaPluginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB88AFE5778C5CE62CFC053 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPluginUITests" */;
+			buildPhases = (
+				BCB88EF0E3E9FE1CC636BC1E /* Sources */,
+				BCB88548D8A056BF20ADB2E7 /* Frameworks */,
+				BCB88A3B2CF522727EFC6C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB882376D6398E7AD8FD37A /* PBXTargetDependency */,
+			);
+			name = MyAudioRecorderCordovaPluginUITests;
+			productName = MyAudioRecorderCordovaPluginUITests;
+			productReference = BCB887CEC8FD127952EA0B6D /* MyAudioRecorderCordovaPluginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BCB886F449E3BDE298211724 /* MyAudioRecorderCordovaPluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB8847A42B974E2FB7D3118 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPluginTests" */;
+			buildPhases = (
+				BCB88E407B5E4314B5280320 /* Sources */,
+				BCB88FF1316C464DE5000AC1 /* Frameworks */,
+				BCB888506D59212B8FE69BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCB88B7367CE3B18E16F4FF3 /* PBXTargetDependency */,
+			);
+			name = MyAudioRecorderCordovaPluginTests;
+			productName = MyAudioRecorderCordovaPluginTests;
+			productReference = BCB8887A27D82FD8B52007F6 /* MyAudioRecorderCordovaPluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB88779ADFEE6154ADCAE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = BCB88EDDA3B51ABFC7F38D94 /* Build configuration list for PBXProject "MyAudioRecorderCordovaPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCB88B1817EBBF326D4AB86E;
+			productRefGroup = BCB889F5C8731760F87B82D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB880038C549C2CD537EB53 /* MyAudioRecorderCordovaPlugin */,
+				BCB886F449E3BDE298211724 /* MyAudioRecorderCordovaPluginTests */,
+				BCB8867FE11C842EBE6FE1A3 /* MyAudioRecorderCordovaPluginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB888506D59212B8FE69BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB88086B8197456A3C4DC7B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88A3B2CF522727EFC6C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB88F393A99A0E7F7B55FAE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88B343CDA92C77E0960F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB8893373AC5022398C1B15 /* Info.plist in Resources */,
+				BCB8810DF68F8A5E5F9DC50D /* Assets.xcassets in Resources */,
+				BCB886599D536AE39BFEE3E5 /* LaunchScreen.storyboard in Resources */,
+				BCB882CFE67FE74402FB43DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB8883A4EF0C70A258AA40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB88D1F5B00682FD2563C35 /* main.m in Sources */,
+				BCB884B1C8811BE52F5BFC1D /* AppDelegate.m in Sources */,
+				BCB883514322D80A0F58F501 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88E407B5E4314B5280320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB88F1D6AC747E6BF1401AA /* MyAudioRecorderCordovaPluginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB88EF0E3E9FE1CC636BC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB8823B6A6CE8CC88A6CFB4 /* MyAudioRecorderCordovaPluginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCB882376D6398E7AD8FD37A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB880038C549C2CD537EB53 /* MyAudioRecorderCordovaPlugin */;
+			targetProxy = BCB886C539C6C6B9C32278DB /* PBXContainerItemProxy */;
+		};
+		BCB88B7367CE3B18E16F4FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCB880038C549C2CD537EB53 /* MyAudioRecorderCordovaPlugin */;
+			targetProxy = BCB88DC5B7DD8CDBD9AFFCE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCB88B3C97BDA1D95A8F89B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB88E46AB2CBBB7D9A34A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB88F2B277239E6243A1F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB8807F23F68426D1D28FC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB883CD4CBF8ECE44AE8E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAudioRecorderCordovaPlugin.app/MyAudioRecorderCordovaPlugin";
+				INFOPLIST_FILE = MyAudioRecorderCordovaPluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPluginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BCB884BF850F8C89021C2D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAudioRecorderCordovaPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB88689550DC19676CCF10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAudioRecorderCordovaPlugin.app/MyAudioRecorderCordovaPlugin";
+				INFOPLIST_FILE = MyAudioRecorderCordovaPluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPluginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		BCB8874F93433A2B360E7608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAudioRecorderCordovaPlugin.app/MyAudioRecorderCordovaPlugin";
+				INFOPLIST_FILE = MyAudioRecorderCordovaPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		BCB887F38DB5018F92AA3585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB888C8C9FB056A349AF481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB889E41D34A3A874F8EE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAudioRecorderCordovaPlugin.app/MyAudioRecorderCordovaPlugin";
+				INFOPLIST_FILE = MyAudioRecorderCordovaPluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPluginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BCB88F48C36458CA7943A24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyAudioRecorderCordovaPlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jupiter.MyAudioRecorderCordovaPlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB8847A42B974E2FB7D3118 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB889E41D34A3A874F8EE26 /* Debug */,
+				BCB8874F93433A2B360E7608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCB885F61CE8114BA3C3CCE2 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB884BF850F8C89021C2D3D /* Debug */,
+				BCB88F48C36458CA7943A24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCB88AFE5778C5CE62CFC053 /* Build configuration list for PBXNativeTarget "MyAudioRecorderCordovaPluginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB883CD4CBF8ECE44AE8E0C /* Debug */,
+				BCB88689550DC19676CCF10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCB88EDDA3B51ABFC7F38D94 /* Build configuration list for PBXProject "MyAudioRecorderCordovaPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB887F38DB5018F92AA3585 /* Debug */,
+				BCB888C8C9FB056A349AF481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB88779ADFEE6154ADCAE2A /* Project object */;
+}
