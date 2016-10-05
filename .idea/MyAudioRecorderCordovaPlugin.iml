@@ -6,11 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPluginUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPluginTests/MyAudioRecorderCordovaPluginTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPluginTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/audios/audio1.mp3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/Classes/MyAudioRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/Classes/MyAudioRecorder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/ViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyAudioRecorderCordovaPlugin/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
