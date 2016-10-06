@@ -15,6 +15,7 @@
 - (void) pauseBGM;
 - (void) resumeBGM;
 - (void) stopBGM;
+- (void) setVolume: (float)volume;
 
 - (void)startRecording;
 - (void)stopRecording;

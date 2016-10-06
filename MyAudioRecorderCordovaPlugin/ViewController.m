@@ -50,6 +50,11 @@
     [_recorder stopBGM];
 }
 
+- (IBAction)setVolume {
+    [_recorder setVolume:(arc4random() % 101)];
+}
+
+
 - (IBAction)startRecording {
     [_recorder startRecording];
 }

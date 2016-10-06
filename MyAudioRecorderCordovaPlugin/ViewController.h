@@ -9,6 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import <stdlib.h>
+
 #import "MyAudioRecorder.h"
 
 @interface ViewController : UIViewController
@@ -17,6 +19,7 @@
 - (IBAction) pauseBGM;
 - (IBAction) resumeBGM;
 - (IBAction) stopBGM;
+- (IBAction) setVolume;
 
 - (IBAction) startRecording;
 - (IBAction) stopRecording;

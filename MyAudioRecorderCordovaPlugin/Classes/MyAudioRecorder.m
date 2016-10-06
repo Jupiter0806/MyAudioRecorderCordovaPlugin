@@ -75,6 +75,13 @@
     [self audioPlayerDidStopped:_bgmPlayer successfully:true];
 }
 
+- (void)setVolume:(float)volume {
+    if (_bgmPlayer) {
+        [_bgmPlayer setVolume:volume];
+    }
+}
+
+
 // other audio play event
 - (void) audioPlayerDidStartPlay:(AVAudioPlayer *)player successfully:(BOOL)flag {
     NSLog(@"Audio player did start play");
